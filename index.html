@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+<style>
+th {
+  text-align: left;
+    color: white;
+  background-color: black;
+ 
+}
+table{
+  border-spacing: 5px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+ 
+}
+tr:nth-child(even) {
+  background-color: #eee;
+}
+tr:nth-child(odd) {
+  background-color: red;
+}
+
+</style>
+</head>
+<body style="background-color: powderblue;">
+  <!-- <h2>I'm Head 2</h2> -->
+  <!-- <h3>I'm Head 3</h3> -->
+  <!-- <h4>I'm Head 4</h4> -->
+  <!-- <h5>I'm Head 5</h5> -->
+  <!-- <h6>I'm Head 6</h6> -->
+  <!-- <h1>I'm Head 1</h1> -->
+ <!-- Hello there -->
+  <nav style="background-color: tomato;">
+      <a href="/index.html">home</a>
+      <a href="/about.html">about</a>
+      <a href="/contact.html">contact</a>
+  </nav>
+  <fieldset>
+    <legend>Personal Information</legend>
+    <form action="" method="" oninput="x.value=parseInt(a.value)+parseInt(b.value)" autocomplete="on">
+     <label for="name">Name</label>
+     <input type="text" name="name" id="name" value="sk" readonly disabled><br>
+     <label for="age">Age</label>
+     <input type="text" name="age" id="age" autofocus><br>
+     <label for="city">City</label>
+     <input type="text" name="city" id="city" size="20" maxlength="4"><br>
+     <label for="state">State</label>
+     <input type="text" name="state" id="state"><br>
+      0
+      <input type="range" id="a" name="a" value="50">
+      100 +
+      <input type="number" id="b" name="b" value="50">
+      =
+      <output name="x" for="a b"></output><br>
+      <label for="browsers">Select Browser</label>
+      <input list="browsers" name="browser"><br>
+      <datalist id="browsers">
+        <option value="Internet Explorer">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+      </datalist>
+      <br>
+      <label for="favcolor">Select your favorite color:</label>
+      <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+      <br>
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" name="birthday" max="1979-12-31" min="2000-01-02">
+      <br>
+      <label for="bdaymonth">Birthday (month and year):</label>
+      <input type="month" id="bdaymonth" name="bdaymonth">
+      <br>
+      <label for="quantity">Quantity (between 1 and 5):</label>
+      <input type="number" id="quantity" name="quantity" min="1" max="5">
+      <br>
+      <label for="vol">Volume (between 0 and 50):</label>
+      <input type="range" id="vol" name="vol" min="0" max="50">
+      <br>
+      <label for="gsearch">Search Google:</label>
+      <input type="search" id="gsearch" name="gsearch">
+      <br>
+      <label for="phone">Enter your phone number:</label>
+      <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+      <br>
+      <label for="appt">Select a time:</label>
+      <input type="time" id="appt" name="appt">
+      <br>
+      <label for="homepage">Add your homepage:</label>
+      <input type="url" id="homepage" name="homepage">
+      <br>
+      <label for="week">Select a week:</label>
+      <input type="week" id="week" name="week">
+      <br>
+      <label for="points">Points:</label>
+      <input type="number" id="points" name="points" step="3">
+      <br>
+      <label for="myfile">Select a file:</label>
+      <input type="file" id="myfile" name="myfile" multiple>
+      <input type="hidden" id="custId" name="custId" value="3487">
+      <br><br>
+     <button type="submit">Submit</button>
+    </form>
+  </fieldset>
+  <h1 id="top">Top of the Page</h1>
+ <h1>Hello I'm 1<sup>st</sup> sumit <sub>in the town</sub></h1>
+ <h3>Image of udemy logo</h3>
+ <a href="#">
+ <img src="/udemy.png" alt="udemy">
+</a>
+<hr>
+<pre>
+  My Bonnie lies over the ocean.
+  
+  My Bonnie lies over the sea.
+  
+  My Bonnie lies over the ocean.
+  
+  Oh, bring back my Bonnie to me.
+
+  <h1>My First Emoji</h1>
+  
+  <p>&#128512;</p>
+</pre>
+ <br><br><br><br><br>
+ <a href="https://www.udemy.com/" target="_blank">visit udemy for more</a>
+ <h3>Image of laptop</h3>
+ <img src="/laptop.jpeg" alt="laptop" width="364" >
+ <p>Some Text here</p>
+ <p>Lorem ipsum dolor sit amet, <del>consectetur </del>adipisicing <ins> elit</ins>. <small> Minima quasi </small>fugiat libero quisquam veritatis nam.
+  Accusantium, <strong>corrupti. Placeat, asperiores <mark> labore numquam doloribus </mark>cupiditate expedita</strong> corrupti. Placeat, asperiores labore numquam doloribus cupiditate expedita consequuntur aliquid unde ipsam
+  esse, neque repellat <b>dicta molestiae</b>  nihil maiores. <em> Ea perferendis    optio maiores pariatur quos quia dolorem voluptates
+  ex</em>, temporibus quae magni aut aliquid! </p>
+  <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+  <br>
+  <br>
+  <br>
+  <p>Here is a quote from WWF's website:</p>
+  <blockquote cite="http://www.worldwildlife.org/who/index.html">
+    For 50 years, WWF has been protecting the future of nature.
+    The world's leading conservation organization,
+    WWF works in 100 countries and is supported by
+    1.2 million members in the United States and
+    close to 5 million globally.
+  </blockquote>
+  <br>
+  <br>
+  <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+  <ul>
+   <li>sumit</li>
+   <li>amit</li>
+   <li>Nisha</li>
+  </ul>
+<br><br><br>
+  <ol>
+   <li>sumit</li>
+   <li>amit</li>
+   <li>amit</li>
+   <li>Nisha</li>
+   <li>amit</li>
+   <li>amit</li>
+  </ol>
+ <br><br><br>
+ <ul>
+  <li>sumit</li>
+  <li>sumit</li>
+  <li><ol>
+   <li>amit</li>
+   <li>amit</li>
+   <li>amit</li>
+  </ol></li>
+  <li>sumit</li>
+ </ul>
+<h2>A Description List</h2>
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+ <br><br><br>
+ <table >
+   <caption>Personal Details</caption>
+  <tr>
+   <th>Name</th>
+   <th rowspan="2">Age</th>
+   <th colspan="2">city</th>
+   <th>state</th>
+  </tr>
+  <tr>
+   <td>Sumit</td>
+   <td>34</td>
+   <td>Patna</td>
+   <td>Bihar</td>
+  </tr>
+  <tr>
+   <td>Amit</td>
+   <td>35</td>
+   <td>Bangalore</td>
+   <td>Karnataka</td>
+  </tr>
+  <tr>
+   <td>Nisha</td>
+   <td>30</td>
+   <td>Hyderabad</td>
+   <td>Andhra Pradesh</td>
+  </tr>
+ </table>
+<!-- 
+Here are the block-level elements in HTML:
+<address>
+<article>
+<aside>
+<blockquote>
+<canvas>
+<dd>
+<div>
+<dl>
+<dt>
+<fieldset>
+<figcaption>
+<figure>
+<footer>
+<form>
+<h1>-<h6>
+<header>
+<hr>
+<li>
+<main>
+<nav>
+<noscript>
+<ol>
+<p>
+<pre>
+<section>
+<table>
+<tfoot>
+<ul>
+<video>
+-->
+<!-- 
+Here are the inline elements in HTML:
+
+<a>
+<abbr>
+<acronym>
+<b>
+<bdo>
+<big>
+<br>
+<button>
+<cite>
+<code>
+<dfn>
+<em>
+<i>
+<img>
+<input>
+<kbd>
+<label>
+<map>
+<object>
+<output>
+<q>
+<samp>
+<script>
+<select>
+<small>
+<span>
+<strong>
+<sub>
+<sup>
+<textarea>
+<time>
+<tt>
+<var>
+ -->
+
+ <bdo dir="rtl">This text will be written from right to left</bdo>
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<pre>
+
+  <code>
+ x = 5;
+ y = 6;
+ z = x + y;
+ </code>
+<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the
+  vertical height.</p>
+</pre>
+<p>Message from my computer:</p>
+<p><samp>File not found.<br>Press F1 to continue</samp></p>
+<p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+
+<section>
+  <h1>WWF</h1>
+  <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation,
+    research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+</section>
+
+<section>
+  <h1>WWF's Panda symbol</h1>
+  <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that
+    was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+</section>
+
+<article>
+  <h2>Google Chrome</h2>
+  <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web
+    browser today!</p>
+</article>
+
+<article>
+  <h2>Mozilla Firefox</h2>
+  <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web
+    browser since January, 2018.</p>
+</article>
+
+<article>
+  <h2>Microsoft Edge</h2>
+  <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet
+    Explorer.</p>
+</article>
+
+<article>
+  <header>
+    <h1>What Does WWF Do?</h1>
+    <p>WWF's mission:</p>
+  </header>
+  <p>WWF's mission is to stop the degradation of our planet's natural environment,
+    and build a future in which humans live in harmony with nature.</p>
+</article>
+<address>
+  Written by John Doe.<br>
+  Visit us at:<br>
+  Example.com<br>
+  Box 564, Disneyland<br>
+  USA
+</address>
+<a href="#top">back to the top</a>
+ <h5>copyright &copy; organisation2019 2021</h5>
+
+</body>
+</html>
